@@ -16,12 +16,12 @@ export const Users: CollectionConfig = {
   fields: [
     {
       type: 'array',
-      localized: true,
+      // localized: true,
       name: 'ingredient-sections',
       fields: [
         {
           type: 'array',
-          localized: true,
+          // localized: true,
           name: 'section-ingredients',
           fields: [
             {
